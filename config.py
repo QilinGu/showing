@@ -6,8 +6,8 @@ rating = 8
 #推送内容的最低评分人数
 ratings_count = 2000
 
-#捕捉内容的时间间隔（小时）
-interval = 24
+#捕捉内容的时间间隔 (crontab)
+interval = '* * */1 * *'
 
 #服务器邮箱
 s_email = 'moka20477@aliyun.com'
