@@ -7,7 +7,7 @@ rating = 8
 ratings_count = 2000
 
 #捕捉内容的时间间隔 (crontab)
-interval = '* * */1 * *'
+interval = '* 10 * * *'
 
 #服务器邮箱
 s_email = 'moka20477@aliyun.com'
@@ -29,12 +29,10 @@ content_2 = '''
         评分：{4}
         参与人数：{5}
         链接：{6}
-
-
 '''
 
 #推送目标邮箱
-c_email = 'moka20477@gmail.com'
+c_email = ''
 
 #上映城市
 city = 'beijing'
